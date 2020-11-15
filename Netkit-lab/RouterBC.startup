@@ -1,5 +1,0 @@
-/etc/init.d/networking start
-sysctl -w net.ipv6.conf.all.forwarding=1
-ifconfig eth0 172.16.10.3/24 
-ifconfig eth1 192.168.10.4/24 
-route add -net 10.10.0.0 netmask 255.255.0.0 gw 192.168.10.3

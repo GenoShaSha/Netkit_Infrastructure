@@ -1,0 +1,4 @@
+/etc/init.d/networking start
+sysctl -w net.ipv6.conf.all.forwarding=1
+ifconfig eth0 172.16.10.3 netmask 255.255.255.0
+ifconfig eth1 192.168.10.4 netmask 255.255.255.0

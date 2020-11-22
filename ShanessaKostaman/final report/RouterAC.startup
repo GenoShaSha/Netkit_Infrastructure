@@ -1,6 +1,0 @@
-/etc/init.d/networking start
-ifconfig eth0 10.10.0.3 netmask 255.255.0.0
-ifconfig eth1 192.168.10.3 netmask 255.255.255.0
-route add -net 10.10.0.0 netmask 255.255.0.0 dev eth0
-route add -net 192.168.10.0 netmask 255.255.255.0 dev eth1
-route add -net 172.16.10.0 netmask 255.255.255.0 gw 192.168.10.4
